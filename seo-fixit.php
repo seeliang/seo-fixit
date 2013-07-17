@@ -2,7 +2,7 @@
 
 /*
 Plugin Name: Seo fix it
-Description: 1) remove h1 from Tiny_mce, 2) remove nav extra class&id
+Description: 1) remove h1 from Tiny_mce, 2) remove nav extra class&id 
 Version: 0.1a
 Author: S.liang
 License: GPLv2 or later
@@ -26,8 +26,7 @@ class ForRemove_h1 {
     return $arr;
   	}
 }
-
-//add_filter('tiny_mce_before_init',  array('ForRemove_h1', 'remove_h1_mce'));
+//source http://wordpress.stackexchange.com/questions/45815/disable-h1-and-h2-from-rich-text-editor-combobox
 
 new ForRemove_h1();
  
@@ -61,7 +60,7 @@ class remove_menu_class
 
 new remove_menu_class();
 
-
+// ref https://gist.github.com/lekkerduidelijk/5576437
 
 
 
