@@ -65,4 +65,3 @@ new remove_menu_class();
 
 
 
-
